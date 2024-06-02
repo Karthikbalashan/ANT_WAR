@@ -42,7 +42,7 @@
 	</path>
 	<target name="init">
 		<mkdir dir="${project.classes.dir}" />
-		<mkdir lib="${project.web.dir}/WEB-INF/lib" />
+		<mkdir dir="${project.web.dir}/WEB-INF/lib" />
 		<copy includeemptydirs="false" todir="${project.classes.dir}">
 			<fileset dir="src">
 				<exclude name="**/*.java" />
